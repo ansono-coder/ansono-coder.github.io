@@ -758,18 +758,20 @@ html {
   background: hsla(0, 0%, 100%, 0.3);
 }
 .left-col {
-  background: #fff;
+  /* background: #fff; */
   width: 300px;
   position: fixed;
   opacity: 1;
   transition: all 0.2s ease-in;
   height: 100%;
   z-index: 999;
+  background-image: url("/assets/robot.png");
 }
 .left-col .overlay {
   width: 100%;
   height: 180px;
   position: absolute;
+  background-image: url("/assets/robot.png");
 }
 .left-col .intrude-less {
   width: 76%;
@@ -2940,7 +2942,8 @@ pre .id {
     position: absolute;
     width: 100%;
     z-index: 2;
-    background: #4d4d4d;
+    /* background: #4d4d4d; */
+    background-image: url("/assets/robot.png");
   }
   #mobile-nav #header {
     padding: 10px 0 0;
