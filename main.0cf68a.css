@@ -2944,7 +2944,7 @@ pre .id {
     width: 100%;
     z-index: 2;
     /* background: #4d4d4d; */
-    background-image: url("/assets/robot.png");
+    background-image: url("/assets/mrobot.png");
   }
   #mobile-nav #header {
     padding: 10px 0 0;
